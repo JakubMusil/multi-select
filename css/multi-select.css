@@ -1,5 +1,5 @@
 .ms-container{
-  background: transparent url('../img/switch.png') no-repeat 170px 80px;
+  background: transparent url('../img/switch.png') no-repeat 50% 49%;
 }
 
 .ms-container:after{
@@ -11,6 +11,8 @@
   background: #fff;
   color: #555555;
   float: left;
+  width: 45%;
+  
 }
 
 .ms-container .ms-list{
@@ -33,7 +35,7 @@
   display:none;
 }
 .ms-container .ms-selectable{
-  margin-right: 40px;
+  margin-right: 9%;
 }
 
 .ms-container .ms-list.ms-focus{
@@ -56,7 +58,6 @@
 }
 
 .ms-container ul.ms-list{
-  width: 160px;
   height: 200px;
   padding: 0;
   overflow-y: auto;
@@ -91,3 +92,4 @@
   color: #aaa;
   cursor: text;
 }
+
